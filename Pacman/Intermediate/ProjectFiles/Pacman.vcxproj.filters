@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Pacman.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C1A7A505-5709-45EE-968F-08C91ADD840B}</UniqueIdentifier>
+      <UniqueIdentifier>{945BD500-0476-41F2-BF48-AB890F35C381}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Pacman.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9315D158-99D8-48DE-9EF4-CC8FA68CCDC6}</UniqueIdentifier>
+      <UniqueIdentifier>{B4D318F1-E46C-41B3-93FD-655615259DEF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,18 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Pacman">
-      <UniqueIdentifier>{01F70C15-A219-4719-BEB2-5F2B736ECB93}</UniqueIdentifier>
+      <UniqueIdentifier>{34A880F5-D0AE-4131-8974-D558FE2CC9B9}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Pacman\EnemyController.cpp">
+      <Filter>Source\Pacman</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pacman\EnemyController.h">
+      <Filter>Source\Pacman</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Pacman\Pacdot.cpp">
       <Filter>Source\Pacman</Filter>
     </ClCompile>
@@ -39,6 +48,12 @@
       <Filter>Source\Pacman</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Pacman\Pacman.h">
+      <Filter>Source\Pacman</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pacman\PacmanEnemy.cpp">
+      <Filter>Source\Pacman</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pacman\PacmanEnemy.h">
       <Filter>Source\Pacman</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Pacman\PacmanGameModeBase.cpp">
